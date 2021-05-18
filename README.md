@@ -14,7 +14,7 @@ According to our analysis, global happiness stays consistently average. 2020 did
 
 Below is the boxplot containing only the happiness distribution for the ‘Normal’ countries; it is almost identical to the global boxplot.
 
-<img src="">
+<img src="https://raw.githubusercontent.com/LKPelayoUribe/Modeling-Happiness/main/Normal_dataSET.PNG">
 
 The final boxplot contains the happiness distribution for the ‘Extreme’ countries dataset. Its happiness ratings appear to be much more volatile than the ‘Normal’ country dataset. This effect is partially due to the smaller set of data. Drawing from a large pool of data has a smoothing effect on the other boxplots. The single outlier pictured in the ‘Extreme’ boxplot, Jordan in 2020, is not an outlier in the global dataset because of the larger standard deviation in the global dataset.
 
