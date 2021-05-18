@@ -7,7 +7,7 @@ Although we did not remove countries from the dataset if they were only missing 
 
 We dubbed the majority of our data ‘Normal’ and a small group of countries ‘Extreme’. The countries given an ‘Extreme’ label were those discussed previously where the “Perception of corruption” column in the dataset is equal to zero. This is because they did not respond to the related survey questions. Based on this categorization, we formed three datasets to draw comparisons. The first is the complete dataset or ‘Global’ dataset. The second contains only those with the ‘Extreme’ countries. The third contains only the countries without an extreme designation and WHO membership, those dubbed ‘Normal’. 
 
-#Happiness Over Time
+# Happiness Over Time
 According to our analysis, global happiness stays consistently average. 2020 did not veer from this trend showing people have been resilient through the pandemic. The boxplot below showcases our entire dataset. There are three outliers: Afghanistan in 2018 and 2019, and Zimbabwe in 2019.
 
 <img src="">
@@ -43,16 +43,16 @@ In order to take a closer look at how different or similar the extreme countries
 First up is the economy and happiness. We made the choice to separate the extreme regions by country since if we had separated them by region, there would only be two colors to represent the middle east and Asia. But because of this, we where able to see how these extreme countries cluster for the years we did analysis from 2015-2020, and we can see this same clustering from the normal regions. 
 There is a clear linear correlation between how well a region or country is doing financially and happiness. Even the extreme regions do a well job of staying within the trend of the normal regions, the higher the GDP is, the higher the life ladder score.
 
-<img src="">
+<img src="https://raw.githubusercontent.com/LKPelayoUribe/Modeling-Happiness/main/Economic%20Outlook%20vs.%20Happiness.PNG">
 
 Next, we plotted health against happiness, we again see this upward trend between how happy a region is based on their healthy life expectancy. The ‘Extreme’ countries, on the other hand, do not exhibit such a strong linear correlation between health and happiness but if we where to place the extreme points onto the normal they would fit within the range.
 
-<img src="">
+<img src="https://raw.githubusercontent.com/LKPelayoUribe/Modeling-Happiness/main/Predicted%20Health%20vs.%20Happiness.PNG">
 
 Finally, social support has the least linear correlation, but we can see it still is an important factor for the normal regions and for most of the extreme countries. We begin to see this upward trend when countries have at least a 0.8 social support rating. 
 Turkmenistan for two years shows high social support, but their happiness score is not high enough to back up the positive trend we see from the normal regions. 
 
-<img src="">
+<img src="https://raw.githubusercontent.com/LKPelayoUribe/Modeling-Happiness/main/Social%20Support%20vs.%20Happiness.PNG">
 
 # Conclusion
 
