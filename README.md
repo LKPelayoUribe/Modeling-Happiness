@@ -10,35 +10,35 @@ We dubbed the majority of our data ‘Normal’ and a small group of countries �
 # Happiness Over Time
 According to our analysis, global happiness stays consistently average. 2020 did not veer from this trend showing people have been resilient through the pandemic. The boxplot below showcases our entire dataset. There are three outliers: Afghanistan in 2018 and 2019, and Zimbabwe in 2019.
 
-<img src="">
+<img src="https://raw.githubusercontent.com/LKPelayoUribe/Modeling-Happiness/main/Global_dataSET.PNG">
 
 Below is the boxplot containing only the happiness distribution for the ‘Normal’ countries; it is almost identical to the global boxplot.
 
-<img src="">
+<img src="https://raw.githubusercontent.com/LKPelayoUribe/Modeling-Happiness/main/Normal_dataSET.PNG">
 
 The final boxplot contains the happiness distribution for the ‘Extreme’ countries dataset. Its happiness ratings appear to be much more volatile than the ‘Normal’ country dataset. This effect is partially due to the smaller set of data. Drawing from a large pool of data has a smoothing effect on the other boxplots. The single outlier pictured in the ‘Extreme’ boxplot, Jordan in 2020, is not an outlier in the global dataset because of the larger standard deviation in the global dataset.
 
-<img src="">
+<img src="https://raw.githubusercontent.com/LKPelayoUribe/Modeling-Happiness/main/Extreme_dataSET.PNG">
 
 # The Factors of Happiness
 By analyzing only the ‘Normal’ countries, we determined the factors that had the greatest effect on the happiness score. With principal component analysis (PCA) we found “Social Support”, “log GDP per capita”, and “Healthy life expectancy at birth” explained the positive variance in the happiness scores while “Negative affect”, and “Perceptions of corruption” explained the negative variance in the happiness scores. 
 
-<img src="">
+<img src="https://raw.githubusercontent.com/LKPelayoUribe/Modeling-Happiness/main/Happiness%20Biplot.PNG">
 
 The scatter plot below plots the first principal component against the second principal component and color codes the points based on their “Life Ladder” scores. The rainbow pattern shows the large amount of structure from the dataset contained in the first principal component. 
 
-<img src="">
+<img src="https://raw.githubusercontent.com/LKPelayoUribe/Modeling-Happiness/main/Happiness%20PCA.PNG">
 
 # Happiness by Region
 We looked at the happiness distributions across each region from our global dataset and from our cleaning process we found all the ‘Extreme’ countries are in the Middle East and Asia. 
 
-<img src="">
+<img src="https://raw.githubusercontent.com/LKPelayoUribe/Modeling-Happiness/main/Happiness%20By%20Region.PNG">
 
 We can see both these regions have the largest ranges and gaps between their “Life Ladder” scores. 
 This led us to ask, do ‘Extreme’ countries share the same “life ladder scores” as ‘Normal’ countries? And does regional location play a role on happiness?
 In order to take a closer look at how different or similar the extreme countries behaved, we compared the correlations for each of the three most important happiness factors for our normal and extreme regions. 
 
-<img src="">
+# Analysis
 
 First up is the economy and happiness. We made the choice to separate the extreme regions by country since if we had separated them by region, there would only be two colors to represent the middle east and Asia. But because of this, we where able to see how these extreme countries cluster for the years we did analysis from 2015-2020, and we can see this same clustering from the normal regions. 
 There is a clear linear correlation between how well a region or country is doing financially and happiness. Even the extreme regions do a well job of staying within the trend of the normal regions, the higher the GDP is, the higher the life ladder score.
