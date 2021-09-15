@@ -1,7 +1,7 @@
 # Modeling-Happiness
 How does ‘happiness’ differs across the world? In particular what effects COVID-19 has had on happiness. We looked into regional variations in happiness and considered how missing data affected our approach and analysis.
 
-## Blake G. Jones, Hannah G. Peha, Laura K. Pelayo Uribe
+### By: Blake G. Jones, Hannah G. Peha, Laura K. Pelayo Uribe
 
 # Datasource
 Our data is from the most recent World Happiness Report published in March of 2021. This annual report collates information from the Gallup World Poll survey. We performed our analysis on the last six years of data collected from 2015 to 2020. Before we began analyzing the data, we made a series of decisions in order to narrow the dataset; our intention was to be able to have more confidence in our conclusions even though they are less broadly applicable. 
