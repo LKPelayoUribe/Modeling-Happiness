@@ -1,5 +1,5 @@
 # Modeling-Happiness
-How does ‘happiness’ differs across the world? In particular what effects COVID-19 has had on happiness. We looked into regional variations in happiness and considered how missing data affected our approach and analysis.
+How does ‘happiness’ differ across the world? In particular what effects COVID-19 has had on happiness. We looked into regional variations in happiness and considered how missing data affected our approach and analysis.
 
 ### By: Blake G. Jones, Hannah G. Peha, Laura K. Pelayo Uribe
 
